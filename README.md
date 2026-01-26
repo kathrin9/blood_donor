@@ -21,5 +21,5 @@ The experimental results showed that extensive feature engineering did not consi
 The baseline Logistic Regression model, combined with regularization and proper validation, achieved the most stable and reliable results. Feature engineering provided only marginal improvements in Recall and ROC-AUC for some models (notably Logistic Regression and XGBoost), but these gains were not substantial enough to justify increased complexity.
 
 #Conclusion
-This project demonstrates that, for small-to-medium structured datasets, simpler models with careful validation and minimal feature engineering can outperform more complex approaches. Logistic Regression proved to be an effective and interpretable solution for predicting blood donor availability, offering strong generalization and robustness without unnecessary complexity.
+Multiple models were evaluated throughout this project. After applying feature engineering techniques, the Random Forest demonstrated the strongest performance on the validation set. These results highlight the importance of feature engineering when working with structured datasets and justify the selection of Random Forest as the best-performing model in this study.
 
